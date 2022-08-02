@@ -1,0 +1,339 @@
+body{
+	font-size: 14px;
+	font-family: tahoma, arial, verdana;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: repeat-x;
+}
+
+#container{
+    width: 962px;
+    margin: auto;
+    margin-top: 88px;
+    position: relative;
+    background-image: url(../img/fundo.png);
+    background-repeat: repeat-x;
+}
+
+.logo{
+    background-image: url(../img/logo.png);
+    background-position: 284px 133px;
+    background-size: 102%;
+    height: 126px;
+    width: 139px;
+    left: 32px;
+    top: -86px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(29, 82, 27);
+    padding: 7px 0 13px;
+}
+
+.cabecalho ul{
+	float: right;
+}
+
+.cabecalho ul li {
+    display: inline-block;
+}
+
+.cabecalho ul li a{
+	font-size: 20px;
+    color: #bebebe;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.cabecalho ul li a:hover{
+	color: rgb(8, 58, 6)
+}
+
+.banner{
+	clear: both;
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.banner .imgBanner {
+    background-image: url(../img/logo.png);
+    width: 154px;
+    height: 154px;
+    background-size: cover;
+    float: right;
+    border-radius: 58%;
+    border: 4px solid #000;
+}
+
+.banner h1{
+	font-size: 85px;
+    text-transform: uppercase;
+    color: #00cc1e;
+    font-family: tahoma, arial;
+    font-weight: bold;
+}
+
+.banner h2 {
+    font-size: 31px;
+    font-style: normal;
+    margin-top: 36px;
+}
+
+.banner p {
+    width: 80%;
+    margin-top: 26px;
+    text-align: justify;
+}
+
+hr{
+    border: solid #ababab 1px;
+    margin-top: 50px;
+}
+
+.doc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.sobre{
+    margin-bottom: 500px;
+}
+
+.sobre h3{
+    color: #0c6028;
+    /* border-bottom: 1px solid #b1b1b1; */
+    text-transform: uppercase;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    margin-bottom: -1px;
+}
+
+.sobre h3 span{
+	color: red;
+	margin-right: 10px;
+}
+
+.sessao{
+	background-color: #eee;
+    border-radius: 15px;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.sobre .box{
+    width: 277px;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+} 
+
+.sobre .imagem1{background-image: url(../img/sobrenos1.jpeg)}
+.sobre .imagem2{background-image: url(../img/sobrenos2.jpeg)}
+.sobre .imagem3{background-image: url(../img/sobrenos3.jpeg)}
+
+.tamanhoImg{
+    width: 283px;
+    height: 259px;
+    margin: auto;
+    padding: -11px;
+
+}
+
+.box h4{
+	font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box p{
+	font-size: 13px;
+    width: auto;
+}
+
+.box p span{
+	font-weight: bold;
+	color: #000;
+}
+
+.fontes{
+    width: 130px;
+    height: 130px;
+    margin-top: 107px;
+}
+
+.fontes h3{
+    color: #0b6128;
+    border-bottom: 1px solid #b1b1b1;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.fontes .a1{
+    font-size: 27px;
+    font-family: Tahoma;
+    margin-top: 10px;
+    width: 250px;
+    border: 2px solid #000;
+    margin: 6px;
+    color: #000;
+    text-align: center;
+    margin-top: 47px;
+}
+
+.fontes .a2{
+    font-size: 27px;
+    font-family: Arial;
+    margin-top: 10px;
+    width: 250px;
+    border: 2px solid #000;
+    margin: 6px;
+    color: #000;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.fontes .a3{
+    font-size: 27px;
+    font-family: verdana;
+    margin-top: 10px;
+    width: 250px;
+    border: 2px solid #000;
+    margin: 6px;
+    color: #000;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.cor{
+    width: 300px;
+    height: 213px;
+    cursor: pointer;
+    margin-top: 87px;
+}
+
+.cor h3{
+    color: #0b6128;
+    border-bottom: 1px solid #b1b1b1;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 59px;
+    margin-top: 26px;
+}
+.cor .verde{
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000;
+    margin: 6px;
+    float: left;
+    background-color: rgb(11 97 40);
+    color: #000;
+    font-size: 23px;
+    font-family: Tahoma;
+}
+
+.cor .branco{
+    width: 250px;
+    height: 27px;
+    border: 2px solid #000;
+    margin: 6px;
+    float: left;
+    background-color: #fff;
+    color: #000;
+    margin-top: -14px;
+    font-size: 23px;
+    font-family: Tahoma;
+}
+
+.cor .preto{
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+    background-color: #000;
+    color:rgb(15, 248, 50);
+    font-size: 23px;
+    font-family: Tahoma;
+}
+
+.cor .cinza{
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000;
+    margin: 6px;
+    float: left;
+    background-color: rgb(238 238 238);
+    color: #000;
+    font-size: 23px;
+    font-family: Tahoma;
+    margin-top: 3px;
+}
+
+.h3{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    color:rgb(15, 248, 50);
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.persona span{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(12 96 40);
+    font-family: tahoma, arial;
+}
+
+.persona {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    }
+
+.identidade{
+    font-size: 12px;
+    color:black;
+    font-family: tahoma, arial;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    }
+
+.contx{
+    font-size: 12px;
+    color: black;
+    font-family: tahoma, arial;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    position: relative;
+ }
+
+.persona .imagem4{background-image: url(../img/jose.png);
+    width: 283px;
+    height: 259px;
+    margin: auto;
+    padding: -11px;
+    background-position: -116px;
+    border-radius: 9%;
+    border: 2px solid #000;
+    margin-top: 29px;
+}

@@ -1,0 +1,145 @@
+body{
+	font-size: 14px;
+	font-family: tahoma, arial, verdana;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: repeat-x;
+}
+
+#container{
+    width: 962px;
+    margin: auto;
+    margin-top: 88px;
+    position: relative;
+    background-image: url(../img/fundo.png);
+    background-repeat: repeat-x;
+}
+
+.logo{
+    background-image: url(../img/logo.png);
+    background-position: 284px 133px;
+    background-size: 102%;
+    height: 126px;
+    width: 139px;
+    left: 32px;
+    top: -86px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(29, 82, 27);
+    padding: 7px 0 13px;
+}
+
+.cabecalho ul{
+	float: right;
+}
+
+.cabecalho ul li {
+    display: inline-block;
+}
+
+.cabecalho ul li a{
+	font-size: 20px;
+    color: #bebebe;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.cabecalho ul li a:hover{
+	color: rgb(8, 58, 6)
+}
+
+.banner{
+	clear: both;
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.banner .imgBanner {
+    background-image: url(../img/logo.png);
+    width: 154px;
+    height: 154px;
+    background-size: cover;
+    float: right;
+}
+
+.banner h1{
+	font-size: 85px;
+    text-transform: uppercase;
+    color: #00cc1e;
+    font-family: tahoma, arial;
+    font-weight: bold;
+}
+
+.banner h2 {
+    font-size: 31px;
+    font-style: normal;
+    margin-top: 36px;
+}
+
+.banner p {
+    width: 80%;
+    margin-top: 26px;
+    text-align: justify;
+}
+
+.vagas h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #00cc1e;
+    font-family: tahoma, arial;
+    font-weight: bold;
+    margin-top: 84px;
+}
+
+.rodape{
+    background-color: black;
+    height: 39px;
+    width: 100%;
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape p{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 251px;
+    margin-top: 4px;
+}
+
+.imgRedesocial-1{
+    background-image: url(../img/imagensB.png);
+    background-position: 666px 52px;
+    height: 54px;
+    width: 47px;
+    position: relative;
+    top: 35px;
+}
+
+.imgRedesocial-2{
+    background-image: url(../img/imagensB.png);
+    background-position: 1312px 45px;
+    height: 35px;
+    width: 54px;
+    position: relative;
+    right: 44px;
+    bottom: 12px;
+}
+
+.imgRedesocial-3{
+    background-image: url(../img/imagensB.png);
+    background-position: 1949px 44px;
+    height: 35px;
+    width: 54px;
+    position: relative;
+    right: 80px;
+    bottom: 46px;
+}

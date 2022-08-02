@@ -1,0 +1,144 @@
+body{
+	font-size: 14px;
+	font-family: tahoma, arial, verdana;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: repeat-x;
+}
+
+#container{
+    width: 962px;
+    margin: auto;
+    margin-top: 88px;
+    position: relative;
+    background-image: url(../img/fundo.png);
+    background-repeat: repeat-x;
+}
+
+.logo{
+    background-image: url(../img/logo.png);
+    background-position: 284px 133px;
+    background-size: 102%;
+    height: 126px;
+    width: 139px;
+    left: 32px;
+    top: -86px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(29, 82, 27);
+    padding: 7px 0 13px;
+}
+
+.cabecalho ul{
+	float: right;
+}
+
+.cabecalho ul li {
+    display: inline-block;
+}
+
+.cabecalho ul li a{
+	font-size: 20px;
+    color: #bebebe;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.cabecalho ul li a:hover{
+	color: rgb(8, 58, 6)
+}
+
+#section{
+    width: 900px;
+    margin: auto;
+}
+
+.box{
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+.cores, .btnAcao {
+    background-color: #0b6128;
+    height: 39px;
+}
+
+.cores h1{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 335px;
+    display: inline-block;
+}
+
+
+.formulario{
+    background-color: #24432b;
+    padding: 30px;
+}
+
+.formulario label{
+    display: block;
+    border-top: 1px double #acacac;
+    border-bottom: 1px double #8f8f8f;
+    height: auto;
+    line-height: 24px;
+}
+
+label span{
+    width: 80px;
+    text-align: right;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #f3f3f3;
+    vertical-align: top;
+}
+
+label input[type=text], label textarea {
+    border: 1px double rgb(0 0 0);
+    background-color: #032e07;
+    padding: 10px 10px;
+    width: 400px;
+    color: #000000;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+label textarea {
+    width: 600px;
+}
+
+.btnAcao{
+    text-align: right;
+}
+
+.btnAcao .botao{
+    width: 100px;
+    background-color: #19b500;
+    height: 30px;
+    color: #fff;
+    margin-top: 5px;
+
+}
+
+.msgErro{
+    border: 2px dashed tomato;
+    background-color: #f2c6c6;
+    height: 39px;
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 44px;
+    display: none;
+}
